@@ -1,0 +1,50 @@
+{
+  "card": {
+    "limit": 1500,
+    "balance": 760
+  },
+  "transactions": [
+    {
+      "id": 1,
+      "type": "Payment",
+      "amount": 200,
+      "name": "IKEA",
+      "description": "Order for kitchen items",
+      "date": "2025-04-21",
+      "pending": true,
+      "user": "Valera",
+      "payment": false,
+      "status": true,
+      "bank": "Monobank Ukraine",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Ikea_logo.svg/200px-Ikea_logo.svg.png?20220903005024"
+    },
+    {
+      "id": 2,
+      "type": "Credit",
+      "amount": 50,
+      "name": "Target",
+      "description": "Grocery shopping",
+      "date": "2025-04-18",
+      "pending": false,
+      "user": "Valera",
+      "payment": false,
+      "status": true,
+      "bank": "Monobank Ukraine",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Visa_Inc._logo.svg/1599px-Visa_Inc._logo.svg.png?20170118154621"
+    },
+    {
+      "id": 3,
+      "type": "Payment",
+      "amount": 50,
+      "name": "APPLE",
+      "description": "GAME",
+      "date": "2025-04-18",
+      "pending": false,
+      "user": "Joe",
+      "payment": true,
+      "status": true,
+      "bank": "Monobank Ukraine",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/976px-Apple_logo_black.svg.png?20220821121934"
+    }
+  ]
+}
