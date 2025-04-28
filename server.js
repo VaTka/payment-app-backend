@@ -1,6 +1,9 @@
 import express from 'express';
 import cors from 'cors';
-import db from './db.json';
+import { readFile } from 'fs/promises';
+
+const data = await readFile('./db.json', 'utf-8');
+const db = JSON.parse(data);
 
 const app = express();
 const PORT = 3001;
